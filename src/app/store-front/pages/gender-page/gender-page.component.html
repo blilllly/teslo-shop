@@ -12,3 +12,8 @@
   <product-card [product]="product" />
   }
 </div>
+
+<app-pagination
+  [pages]="this.productsResource.value()?.pages ?? 0"
+  [currentPage]="this.paginationService.currentPage()"
+/>
