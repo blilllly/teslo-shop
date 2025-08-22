@@ -1,0 +1,239 @@
+<form
+  class="flex flex-col gap-2"
+  [formGroup]="loginForm"
+  (ngSubmit)="onSubmit()"
+>
+  <label class="input validator">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="25"
+      viewBox="0 0 16 16"
+    >
+      <g fill="none">
+        <path fill="#367af2" d="M14 5H2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z" />
+        <path
+          fill="url(#SVGGgyEXcpd)"
+          d="M14 5H2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"
+        />
+        <path
+          fill="url(#SVG3JLFgc8p)"
+          d="M14 5H2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"
+        />
+        <path
+          fill="url(#SVGDOgIacJp)"
+          fill-opacity="0.75"
+          d="M14 5H2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"
+        />
+        <path
+          fill="url(#SVGPK7a3cDK)"
+          fill-opacity="0.7"
+          d="M14 5H2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2z"
+        />
+        <path
+          fill="url(#SVGrwPlmxeR)"
+          d="M4 3a2 2 0 0 0-2 2v.84l5.763 3.103a.5.5 0 0 0 .474 0L14 5.84V5a2 2 0 0 0-2-2z"
+        />
+        <defs>
+          <linearGradient
+            id="SVGGgyEXcpd"
+            x1="9.523"
+            x2="13.026"
+            y1="6.568"
+            y2="12.814"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".228" stop-color="#0094f0" stop-opacity="0" />
+            <stop offset=".431" stop-color="#0094f0" />
+          </linearGradient>
+          <linearGradient
+            id="SVG3JLFgc8p"
+            x1="6.286"
+            x2="2.394"
+            y1="5.842"
+            y2="13.198"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".228" stop-color="#0094f0" stop-opacity="0" />
+            <stop offset=".431" stop-color="#0094f0" />
+          </linearGradient>
+          <linearGradient
+            id="SVGDOgIacJp"
+            x1="11.164"
+            x2="11.756"
+            y1="9.773"
+            y2="13.726"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#2764e7" stop-opacity="0" />
+            <stop offset="1" stop-color="#2764e7" />
+          </linearGradient>
+          <linearGradient
+            id="SVGPK7a3cDK"
+            x1="9.857"
+            x2="10.938"
+            y1="5.982"
+            y2="14.034"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".533" stop-color="#ff6ce8" stop-opacity="0" />
+            <stop offset="1" stop-color="#ff6ce8" />
+          </linearGradient>
+          <linearGradient
+            id="SVGrwPlmxeR"
+            x1="5.565"
+            x2="12.316"
+            y1=".507"
+            y2="12.725"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#6ce0ff" />
+            <stop offset=".462" stop-color="#29c3ff" />
+            <stop offset="1" stop-color="#4894fe" />
+          </linearGradient>
+        </defs>
+      </g>
+    </svg>
+    <input type="email" placeholder="email" formControlName="email" />
+  </label>
+
+  <label class="input validator">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="25"
+      height="25"
+      viewBox="0 0 32 32"
+    >
+      <g fill="none">
+        <path
+          fill="url(#SVGheAWrbDq)"
+          d="M25.125 18.056v4.166l-8.095 7.75q-.51.027-1.03.028c-3.198 0-6.14-.823-8.315-2.207C5.523 26.417 4 24.393 4 22v-.5A3.5 3.5 0 0 1 7.5 18h17q.32.001.625.056"
+        />
+        <path
+          fill="url(#SVGmPgBWcaU)"
+          d="M25.125 18.056v4.166l-8.095 7.75q-.51.027-1.03.028c-3.198 0-6.14-.823-8.315-2.207C5.523 26.417 4 24.393 4 22v-.5A3.5 3.5 0 0 1 7.5 18h17q.32.001.625.056"
+        />
+        <path
+          fill="url(#SVGXgoIjeqi)"
+          fill-opacity="0.75"
+          d="M25.125 18.056v4.166l-8.095 7.75q-.51.027-1.03.028c-3.198 0-6.14-.823-8.315-2.207C5.523 26.417 4 24.393 4 22v-.5A3.5 3.5 0 0 1 7.5 18h17q.32.001.625.056"
+        />
+        <path
+          fill="url(#SVG1b9p8cSA)"
+          fill-opacity="0.75"
+          d="M25.125 18.056v4.166l-8.095 7.75q-.51.027-1.03.028c-3.198 0-6.14-.823-8.315-2.207C5.523 26.417 4 24.393 4 22v-.5A3.5 3.5 0 0 1 7.5 18h17q.32.001.625.056"
+        />
+        <path
+          fill="url(#SVGbIOE1dGv)"
+          d="M16 16a7 7 0 1 0 0-14a7 7 0 0 0 0 14"
+        />
+        <path
+          fill="url(#SVGtQelrcmL)"
+          fill-rule="evenodd"
+          d="M25 25.9a5 5 0 1 0-3.703-3.197l-5.15 5.15a.5.5 0 0 0-.147.354V30.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 1 .5-.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 1 .5-.5h1a.5.5 0 0 0 .5-.5zm3.121-5.607a1 1 0 1 1-1.414-1.414a1 1 0 0 1 1.414 1.414"
+          clip-rule="evenodd"
+        />
+        <defs>
+          <linearGradient
+            id="SVGheAWrbDq"
+            x1="9.707"
+            x2="13.584"
+            y1="19.595"
+            y2="31.977"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".125" stop-color="#9c6cfe" />
+            <stop offset="1" stop-color="#7a41dc" />
+          </linearGradient>
+          <linearGradient
+            id="SVGmPgBWcaU"
+            x1="16"
+            x2="21.429"
+            y1="16.571"
+            y2="36.857"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#885edb" stop-opacity="0" />
+            <stop offset="1" stop-color="#e362f8" />
+          </linearGradient>
+          <linearGradient
+            id="SVGbIOE1dGv"
+            x1="12.329"
+            x2="19.464"
+            y1="3.861"
+            y2="15.254"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".125" stop-color="#9c6cfe" />
+            <stop offset="1" stop-color="#7a41dc" />
+          </linearGradient>
+          <linearGradient
+            id="SVGtQelrcmL"
+            x1="31.021"
+            x2="16.774"
+            y1="30.994"
+            y2="19.339"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#ff6f47" />
+            <stop offset="1" stop-color="#ffcd0f" />
+          </linearGradient>
+          <radialGradient
+            id="SVGXgoIjeqi"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientTransform="matrix(9.6823 -16.28579 8.42641 5.0097 20.724 34.286)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#0a1852" stop-opacity="0.75" />
+            <stop offset="1" stop-color="#0a1852" stop-opacity="0" />
+          </radialGradient>
+          <radialGradient
+            id="SVG1b9p8cSA"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientTransform="matrix(0 -5.5 7.25 0 26 21.5)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#0a1852" stop-opacity="0.75" />
+            <stop offset="1" stop-color="#0a1852" stop-opacity="0" />
+          </radialGradient>
+        </defs>
+      </g>
+    </svg>
+    <input type="password" placeholder="password" formControlName="password" />
+  </label>
+
+  <button class="btn btn-primary" type="submit">Login</button>
+
+  <a
+    class="italic font-extralight text-slate-700 underline underline-offset-2"
+    [routerLink]="['/auth/register']"
+  >
+    ¿No tienes una cuenta?
+  </a>
+</form>
+
+@if (hasError()) {
+<div
+  role="alert"
+  class="alert alert-error animate-fade-in fixed bottom-5 right-5 w-52"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6 shrink-0 stroke-current"
+    fill="none"
+    viewBox="0 0 24 24"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+    />
+  </svg>
+  <span>Error en el formulario</span>
+</div>
+}
