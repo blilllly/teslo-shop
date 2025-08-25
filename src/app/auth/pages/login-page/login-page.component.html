@@ -207,13 +207,15 @@
   </label>
 
   <button class="btn btn-primary" type="submit">Login</button>
-
-  <a
-    class="italic font-extralight text-slate-700 underline underline-offset-2"
-    [routerLink]="['/auth/register']"
-  >
+  <p class="italic font-extralight text-slate-700">
     ¿No tienes una cuenta?
-  </a>
+    <a
+      class="text-primary underline underline-offset-2"
+      [routerLink]="['/auth/register']"
+    >
+      Crea una aquí
+    </a>
+  </p>
 </form>
 
 @if (hasError()) {
