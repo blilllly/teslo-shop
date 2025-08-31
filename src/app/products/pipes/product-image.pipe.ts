@@ -9,6 +9,9 @@ const baseUrl = environment.baseUrl;
 export class ProductImagePipe implements PipeTransform {
   transform(value: null | string | string[]): string {
     if (value === null) return './assets/images/no-image.jpg';
+
+    //local images
+    if (typeof value === 'string' && value.startsWith('blob:')) return value;
     // string = string
     if (typeof value === 'string') return `${baseUrl}/files/product/${value}`;
     // placeholder image
